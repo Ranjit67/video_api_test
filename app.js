@@ -6,7 +6,7 @@ const http = require("http");
 const server = http.createServer(app);
 const io = socket(server, {
   cors: {
-    origin: "https://exposium-live-2021.web.app",
+    origin: "http://localhost:3000",
   },
 });
 const requestList = {};
